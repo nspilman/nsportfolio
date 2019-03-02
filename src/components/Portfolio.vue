@@ -98,7 +98,18 @@ export default {
         photo:travelBlogPhoto,
         github:'https://github.com/nspilman/the-bahblag-gatsby',
         website:'https://www.thebahblog.com',
-        }
+        },
+        {'name':'Wedding Website',
+        'description':"I'm getting married in July, and built the website for our wedding guests",
+        'accomplishments':
+          ['VueJS',
+          'Google Spreadsheet back-end',
+          'Django'
+        ],
+        photo:travelBlogPhoto,
+        github:'https://github.com/nspilman/the-bahblag-gatsby',
+        website:'https://www.thebahblog.com',
+        },
       ]
     }
   }

@@ -27,12 +27,12 @@
         </nav>
         <ul class="icons">
           <li>
-            <a href="#" class="icon fa-github">
+            <a href="https:/github.com/nspilman" target ="_blank" class="icon fa-github">
               <span class="label">GitHub</span>
             </a>
           </li>
           <li>
-            <a href="#" class="icon fa-envelope">
+            <a href="/contact" class="icon fa-envelope">
               <span class="label">Email</span>
             </a>
           </li>
