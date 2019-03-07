@@ -37,6 +37,8 @@
 </template>
 
 <script>
+import axios from "axios"
+
 export default {
 	data(){
 		return{
@@ -55,8 +57,12 @@ export default {
 				subject : this.subject,
 				message : this.message,
 			}
+			axios.post(
+				'natespilman.tech/portfolio/contactEmail',
+				emailData
+			).then(res => console.log(res))
 			console.log(emailData)
 		}
-	}
+	},
 }
 </script>
