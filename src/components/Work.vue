@@ -12,6 +12,8 @@
 									<h2>Work</h2>
 									<p>Full Stack Developer<br />
 									with background in Project Management</p>
+									<br>
+									<a href = "https://natespilman.tech/media/pdfs/Nate_Spilman_Resume_PbZVy2A.pdf" target = "_blank"><p>resume</p></a>
 								</header>
 								<p>While working as an Implementation Project Manager at Epic, Nate developed a deep interest in software development itself. It began with "Automate the Boring Stuff with Python", and soon Nate was using Python to compare large data sets, manage database tables in sqlite3, and distributing information across internal folders. </p>
 								<p>Nate soon picked up a remote pro-bono full stack development position with Arts on the Hudson, a Jersey City, NJ based arts non-profit. Nate spent nights and weekends learning Django and the ins and outs of web hosting, transitioning the Arts on the Hudson website from Wix to Django, developing the whole site from scratch.</p>
