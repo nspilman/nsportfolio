@@ -10,9 +10,9 @@
 							<div class="inner">
 								<header>
 									<h2>Portfolio</h2>
-									<p>Magna feugiat lorem ipsum dolor<br />
-									veroeros sed adipiscing</p>
-								</header>
+									<!-- <p>Magna feugiat lorem ipsum dolor<br />
+									veroeros sed adipiscing</p> -->
+								</header> 
                                 <div class ="row">
                                 <project-box v-for="project in projects" :project="project"></project-box>
 							</div>
