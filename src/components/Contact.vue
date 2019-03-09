@@ -12,7 +12,7 @@
 								</header>
 								<div v-if="messageSent">
 									<h4>Thank you for the message </h4>
-									<p class = "text-primary" @click="resetSent">Send another?</p>
+									<p class = "text-primary resend" @click="resetSent">Send another?</p>
 								</div>
 								<form v-if="!messageSent" method="post" action="#">
 									<div class="field half first">
@@ -71,7 +71,21 @@ export default {
 		},
 		resetSent(){
 			this.messageSent = false;
+			this.name = null;
+			this.email = null;
+			this.subject = null;
+			this.message = null;
 		}
 	},
 }
 </script>
+
+<style scoped>
+
+.resend{
+cursor: pointer;
+}
+
+
+</style>
+
