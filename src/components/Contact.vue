@@ -58,7 +58,7 @@ export default {
 				message : this.message,
 			}
 			axios.post(
-				'natespilman.tech/portfolio/contactEmail',
+				'natespilman.tech/jobhunt/contactPageEmail',
 				emailData
 			).then(res => console.log(res))
 			console.log(emailData)
