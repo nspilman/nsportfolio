@@ -12,7 +12,7 @@
 								</header>
 								<div v-if="messageSent">
 									<h4>Thank you for the message </h4>
-									<p>Send another?</p>
+									<p class = "text-primary" @click="resetSent">Send another?</p>
 								</div>
 								<form v-if="!messageSent" method="post" action="#">
 									<div class="field half first">
@@ -68,6 +68,9 @@ export default {
 			).then(res => {if(res.status ===200){
 				this.messageSent = true
 			}})
+		},
+		resetSent(){
+			this.messageSent = false;
 		}
 	},
 }
