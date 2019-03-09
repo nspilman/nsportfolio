@@ -10,7 +10,11 @@
 								<header>
 									<h2>Contact</h2>
 								</header>
-								<form method="post" action="#">
+								<div v-if="messageSent">
+									<h4>Thank you for the message </h4>
+									<p>Send another?</p>
+								</div>
+								<form v-if="!messageSent" method="post" action="#">
 									<div class="field half first">
 										<label for="name">Name</label>
 										<input type="text" name="name" id="name" v-model="name"/>
@@ -46,6 +50,7 @@ export default {
 			email:null,
 			subject:null,
 			message:null,
+			messageSent:false,
 		}
 	},
 	methods:{
@@ -60,8 +65,9 @@ export default {
 			axios.post(
 				'https://natespilman.tech/jobhunt/contactPageEmail',
 				emailData
-			).then(res => console.log(res))
-			console.log(emailData)
+			).then(res => {if(res.status ===200){
+				this.messageSent = true
+			}})
 		}
 	},
 }
