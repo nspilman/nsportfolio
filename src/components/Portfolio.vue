@@ -28,6 +28,9 @@ import wlbnyImage from "../assets/img/wlbny.png"
 import AOTHlogo from "../assets/img/AOTHlogo.png"
 import pyrrhicLogo from "../assets/img/pyrrhic_tree_white.png"
 import travelBlogPhoto from "../assets/img/giraffeAtSunsetPortrait.jpg"
+import epic from "../assets/img/epicLogo.png"
+import nateHeadshot from "../assets/img/nateStaffLogo.jpg"
+import weddingSite from "../assets/img/wedding.jpg"
 
 export default {
     components:{
@@ -43,7 +46,7 @@ export default {
           'HTML/CSS',
           'Vanilla Javascript'
         ],
-        photo:'',
+        photo:nateHeadshot,
         github:'',
         website:'',
         },
@@ -85,7 +88,7 @@ export default {
           'C# ASP.NET',
           'Microsoft SQL Server'
         ],
-        photo:'',
+        photo:epic,
         github:'',
         website:'',},
         {'name':'Personal Travel Blog',
@@ -106,7 +109,7 @@ export default {
           'Google Spreadsheet back-end',
           'Django'
         ],
-        photo:travelBlogPhoto,
+        photo:weddingSite,
         github:'https://github.com/nspilman/the-bahblag-gatsby',
         website:'https://www.thebahblog.com',
         },
