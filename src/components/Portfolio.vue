@@ -99,15 +99,15 @@ export default {
           'Django'
         ],
         photo:travelBlogPhoto,
-        github:'https://github.com/nspilman/the-bahblag-gatsby',
-        website:'https://www.thebahblog.com',
+        github:'https://github.com/nspilman/weddingsite',
+        website:'https://www.claireandnatesavethedate.com',
         },
         {'name':'Wedding Website',
         'description':"I'm getting married in July, and built the website for our wedding guests",
         'accomplishments':
           ['VueJS',
           'Google Spreadsheet back-end',
-          'Django'
+          'Django Rest Framework'
         ],
         photo:weddingSite,
         github:'https://github.com/nspilman/the-bahblag-gatsby',
