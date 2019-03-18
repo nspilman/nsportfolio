@@ -8,8 +8,12 @@
 					<li><router-link to="/" class="button small back">Back</router-link></li>		</ul>
 							<div class="inner">
 								<header>
-									<h2>Contact</h2>
+									<div>
+									<h2 class = "mb-0">Contact</h2>
+												<p class ="field"><span class="icon fa-envelope"/> nate.spilman@gmail.com</p>
+								</div>
 								</header>
+						
 								<div v-if="messageSent">
 									<h4>Thank you for the message </h4>
 									<p class = "text-primary resend" @click="resetSent">Send another?</p>
@@ -35,7 +39,6 @@
 										<li><a @click="submitEmail" class="button submit">Send Message</a></li>
 									</ul>
 								</form>
-							<p class ="field"><span class="icon fa-envelope"/> nate.spilman@gmail.com</p>
 							</div>
 						</div>
 					</article>

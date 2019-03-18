@@ -32,9 +32,7 @@
             </a>
           </li>
           <li>
-            <a href="/contact" class="icon fa-envelope">
-              <span class="label">Email</span>
-            </a>
+             <router-link to="/contact" class="icon fa-envelope"/>
           </li>
         </ul>
       </div>
