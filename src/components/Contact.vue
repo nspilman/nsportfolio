@@ -35,6 +35,7 @@
 										<li><a @click="submitEmail" class="button submit">Send Message</a></li>
 									</ul>
 								</form>
+							<p class ="field"><span class="icon fa-envelope"/> nate.spilman@gmail.com</p>
 							</div>
 						</div>
 					</article>
