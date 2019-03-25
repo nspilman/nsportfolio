@@ -99,8 +99,8 @@ export default {
           'Django'
         ],
         photo:travelBlogPhoto,
-        github:'https://github.com/nspilman/weddingsite',
-        website:'https://www.claireandnatesavethedate.com',
+        github:'https://github.com/nspilman/the-bahblag-gatsby',
+        website:'https://www.thebahblog.com',
         },
         {'name':'Wedding Website',
         'description':"I'm getting married in July, and built the website for our wedding guests",
