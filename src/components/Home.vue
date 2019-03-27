@@ -6,7 +6,11 @@
     <div class="content">
       <div class="inner">
         <header>
+          <div>
           <h1>Nate Spilman</h1>
+          <h4>Web Developer</h4>
+          </div>
+          <hr>
           <p>Professional Portfolio
             <br>
           </p>

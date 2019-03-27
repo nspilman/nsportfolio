@@ -14,7 +14,7 @@
 									with background in Project Management</p>
 									<br>
 									<a href = "https://natespilman.tech/media/pdfs/Nate_Spilman_Resume_PbZVy2A.pdf" target = "_blank"><p>resume</p></a>
-								<!-- <Skills/> -->
+								<Skills/>
 								</header>
 								<p>I started my career as a software implementation project manager at Epic, during which I developed a deep interest in software development itself. I started with "Automate the Boring Stuff with Python," and was soon using Python to compare large data sets, manage database tables and distribute information to my team across internal folders. </p>
 								<p>I soon picked up a remote pro-bono full stack development position with Arts on the Hudson, a Jersey City, NJ based arts non-profit. I spent nights and weekends learning Django and the ins and outs of web hosting, transitioning the Arts on the Hudson website from Wix to Django, in the process developing the whole site from scratch.</p>
