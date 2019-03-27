@@ -12,21 +12,20 @@
                     <span class="card-title brown-text">Build<i class="mdi-navigation-close right"></i></span>
                     <hr>
                     <ul class='container'>
-                        <li v-for="accomplishment in project.accomplishments">{{ accomplishment }} <hr></li>
+                        <li v-for="accomplishment in project.accomplishments" :key="accomplishment">{{ accomplishment }} <hr></li>
                   </ul>
                   <ul class="icons">
-                      
-          <li v-if="project.github!=''">
-            <a :href="project.github" target = "_blank" class="icon fa-github">
-              <span class="label">GitHub</span>
-            </a>
-          </li>
-          <li v-if="project.website !=''">
-            <a :href="project.website"  target = "_blank" class="icon fa-laptop">
-              <span class="label">Email</span>
-            </a>
-          </li>
-        </ul>
+                      <li v-if="project.github!=''">
+                        <a :href="project.github" target = "_blank" class="icon fa-github">
+                            <span class="label">GitHub</span>
+                        </a>
+                    </li>
+                    <li v-if="project.website !=''">
+                        <a :href="project.website"  target = "_blank" class="icon fa-laptop">
+                            <span class="label">Email</span>
+                        </a>
+                    </li>
+                    </ul>
                 </div>
             </div>
             <!-- <div class="card-image waves-effect waves-block waves-light" @click='showHideDetails'>
@@ -49,14 +48,11 @@ export default {
         },
     methods:{
         showHideDetails(){
-            console.log(this.showDeets)
             this.showDeets = !this.showDeets;
         }
     },
-    props:['project']
-    ,
+    props:['project'],
     created(){
-        console.log(this.project)
     }
 }
 </script>
@@ -76,7 +72,7 @@ ul{
     position: absolute;
  }
 
-.detailModal{ 
+.detailModal{
     background-color: rgba(255,255,255,0.65);
 }
 .mainContent{

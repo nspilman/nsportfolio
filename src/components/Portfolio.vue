@@ -1,24 +1,23 @@
 <template>
-    					<article id="portfolio" class="panel secondary">
-						<!-- <div class="image">
-							<img src="images/pic03.jpg" alt="" data-position="center center" />
-						</div> -->
-						<div class="content">
-							<ul class="actions spinX">
-							<li><router-link to="/" class="button small back">Back</router-link></li>
-							</ul>
-							<div class="inner">
-								<header>
-									<h2>Portfolio</h2>
+  <article id="portfolio" class="panel secondary">
+    <div class="content">
+      <ul class="actions spinX">
+        <li>
+          <router-link to="/" class="button small back">Back</router-link>
+        </li>
+			</ul>
+      <div class="inner">
+        <header>
+          <h2>Portfolio</h2>
 									<!-- <p>Magna feugiat lorem ipsum dolor<br />
 									veroeros sed adipiscing</p> -->
-								</header> 
-                                <div class ="row">
-                                <project-box v-for="project in projects" :project="project"></project-box>
-							</div>
-                            </div>
-						</div>
-					</article>
+				</header>
+        <div class ="row">
+          <project-box v-for="project in projects" :project="project" :key="project.name"></project-box>
+				</div>
+      </div>
+		</div>
+	</article>
 </template>
 
 <script>
@@ -39,80 +38,97 @@ export default {
     data(){
     return{
       projects:[
-        {'name':'This Portfolio',
-        'description':"This is Nate's Professional Portfolio",
-        'accomplishments':
-          ['VueJS',
-          'HTML/CSS',
-          'Vanilla Javascript'
+        {
+          name:'This Portfolio',
+          description:"This is Nate's Professional Portfolio",
+          accomplishments:
+          [
+            'VueJS',
+            'HTML/CSS',
+            'Vanilla Javascript'
         ],
         photo:nateHeadshot,
         github:'',
-        website:'',
+        website:''
         },
-        {'name':'Arts on the Hudson',
-        'description':"Arts on the Hudson is a Jersey City, NJ based non-profit",
-        'accomplishments':
-          ['HTML/CSS',
-          'Django',
-          'Digital Ocean web server configuration',
+        {
+          name:'Arts on the Hudson',
+          description:"Arts on the Hudson is a Jersey City, NJ based non-profit",
+          accomplishments:
+          [
+            'HTML/CSS',
+            'Django',
+            'Digital Ocean web server configuration'
         ],
         photo:AOTHlogo,
-                github:'',
-        website:'https://www.artsonthehudson.com',
+        github:'',
+        website:'https://www.artsonthehudson.com'
         },
-        {'name':'Pyrrhic Productions',
-        'description':"Pyrrhic Productions is a video production company",
-        'accomplishments':
-          ['React',
-          'Django',
-          'Netlify Hosting',
+        {
+          name:'Pyrrhic Productions',
+          description:"Pyrrhic Productions is a video production company",
+          accomplishments:
+          [
+            'React',
+            'Django',
+            'Netlify Hosting'
         ],
         photo:pyrrhicLogo,
-                github:'https://github.com/nspilman/pyrrhicprod',
-        website:'https://www.pyrrhicproductions.com',
+        github:'https://github.com/nspilman/pyrrhicprod',
+        website:'https://www.pyrrhicproductions.com'
         },
-        {'name':'WLBNY',
-        'description':"WLBNY is a single page application ",
-        'accomplishments':
-          ['VueJS',
-          'Netlify Hosting',
+        {
+          'name':'WLBNY',
+          'description':"WLBNY is a single page application ",
+          'accomplishments':
+          [
+            'VueJS',
+            'Netlify Hosting',
+            'Google Sheets back end'
         ],
         photo:wlbnyImage,
-                github:'https://github.com/nspilman/wlbny',
-        website:'https://www.wlbny.com',},
-        {'name':'Epic Internal Web Portal',
-        'description':"A data management system for customer success tracking",
-        'accomplishments':
-          ['Vanilla Javascript',
-          'C# ASP.NET',
-          'Microsoft SQL Server'
+        github:'https://github.com/nspilman/wlbny',
+        website:'https://www.wlbny.com'
+        },
+        {
+          name:'Epic Internal Web Portal',
+          description:"A data management system for customer success tracking",
+          accomplishments:
+          [
+            'Vanilla Javascript',
+            'C# ASP.NET',
+            'Microsoft SQL Server'
         ],
         photo:epic,
         github:'',
-        website:'',},
-        {'name':'Personal Travel Blog',
-        'description':"A static website for my the recent travel of my fiancee and me",
-        'accomplishments':
-          ['Gatsby / React',
-          'Netlify CMS',
-          'Django'
+        website:''
+        },
+        {
+          name:'Personal Travel Blog',
+          description:"A static website for my the recent travel of my fiancee and me",
+          accomplishments:
+          [
+            'Gatsby / React',
+            'Netlify CMS',
+            'Django'
         ],
         photo:travelBlogPhoto,
         github:'https://github.com/nspilman/the-bahblag-gatsby',
-        website:'https://www.thebahblog.com',
+        website:'https://www.thebahblog.com'
         },
-        {'name':'Wedding Website',
-        'description':"I'm getting married in July, and built the website for our wedding guests",
-        'accomplishments':
-          ['VueJS',
-          'Google Spreadsheet back-end',
-          'Django Rest Framework'
+        {
+          name:'Wedding Website',
+          description:"I'm getting married in July, and built the website for our wedding guests",
+          accomplishments:
+          [
+            'VueJS',
+            'Google Spreadsheet back-end',
+            'Django Rest Framework'
         ],
         photo:weddingSite,
         github:'https://github.com/nspilman/the-bahblag-gatsby',
-        website:'https://www.thebahblog.com',
-        },
+        website:'https://www.thebahblog.com'
+        }
       ]
     }
   }
