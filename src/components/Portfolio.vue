@@ -79,7 +79,7 @@ export default {
         },
         {
           'name':'WLBNY',
-          'description':"WLBNY is a single page application ",
+          'description':"WLBNY is a single page application for finding businesses in NYC owned or lead my women",
           'accomplishments':
           [
             'VueJS',
@@ -92,7 +92,7 @@ export default {
         },
         {
           name:'Epic Internal Web Portal',
-          description:"A data management system for customer success tracking",
+          description:"An exectutive level data management system for customer success tracking",
           accomplishments:
           [
             'Vanilla Javascript',
@@ -105,7 +105,7 @@ export default {
         },
         {
           name:'Personal Travel Blog',
-          description:"A static website for my the recent travel of my fiancee and me",
+          description:"A static website for a two month trip my fiancee and I took from January to March 2019",
           accomplishments:
           [
             'Gatsby / React',
@@ -126,8 +126,21 @@ export default {
             'Django Rest Framework'
         ],
         photo:weddingSite,
-        github:'https://github.com/nspilman/the-bahblag-gatsby',
-        website:'https://www.thebahblog.com'
+        github:'https://github.com/nspilman/weddingsite',
+        website:'https://www.claireandnatesavethedate.com'
+        },
+        {
+          name:'Calendar Application in VueJS',
+          description:"A small fitness class based calendar application I built in VueJS over the course of five hours for an interview",
+          accomplishments:
+          [
+            'VueJS',
+            'Google Spreadsheet back-end',
+            'Django Rest Framework'
+        ],
+        photo:weddingSite,
+        github:'https://github.com/nspilman/weddingsite',
+        website:'https://www.claireandnatesavethedate.com'
         }
       ]
     }
