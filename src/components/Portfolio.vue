@@ -139,8 +139,8 @@ export default {
             'Netlify Hosting'
         ],
         photo:fitnessCalendar,
-        github:'https://github.com/nspilman/weddingsite',
-        website:'https://www.claireandnatesavethedate.com'
+        github:'https://github.com/nspilman/vuejs-calendar-application',
+        website:'https://vuecalendarprototype.netlify.com/'
         }
       ]
     }
