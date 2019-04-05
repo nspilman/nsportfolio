@@ -30,6 +30,7 @@ import travelBlogPhoto from "../assets/img/giraffeAtSunsetPortrait.jpg"
 import epic from "../assets/img/epicLogo.png"
 import nateHeadshot from "../assets/img/nateStaffLogo.jpg"
 import weddingSite from "../assets/img/wedding.jpg"
+import fitnessCalendar from "../assets/img/fitnessCalendar.jpg"
 
 export default {
     components:{
@@ -135,10 +136,9 @@ export default {
           accomplishments:
           [
             'VueJS',
-            'Google Spreadsheet back-end',
-            'Django Rest Framework'
+            'Netlify Hosting'
         ],
-        photo:weddingSite,
+        photo:fitnessCalendar,
         github:'https://github.com/nspilman/weddingsite',
         website:'https://www.claireandnatesavethedate.com'
         }
