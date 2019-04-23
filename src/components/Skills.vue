@@ -2,7 +2,7 @@
     <div id = "skills">
         <span class= "text-center skills"><h4> SKILLS </h4> </span>
         <div id = "skillIcons">
-        <div class = "skillIcon" v-for="skill in skills">
+        <div class = "skillIcon" v-for="skill in skills" :key="skill.name">
             <img :src="skill.image"/> 
             {{skill.name}}
         </div>
@@ -52,14 +52,6 @@ export default {
           {
               name:"VueJS",
               image: vueJS,
-          },
-          {
-              name:"Redux",
-              image: reduxLogo,
-          },
-          {
-              name:"Webpack",
-              image: webpackLogo,
           },
           {
               name:"Python",
