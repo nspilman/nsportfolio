@@ -19,7 +19,7 @@
 								<p>I started my career as a software implementation project manager at Epic, during which I developed a deep interest in software development itself. I started with "Automate the Boring Stuff with Python," and was soon using Python to compare large data sets, manage database tables and distribute information to my team across internal folders. </p>
 								<p>I soon picked up a remote pro-bono full stack development position with Arts on the Hudson, a Jersey City, NJ based arts non-profit. I spent nights and weekends learning Django and the ins and outs of web hosting, transitioning the Arts on the Hudson website from Wix to Django, in the process developing the whole site from scratch.</p>
 								<p>Back at Epic, I was offered an opportunity to build and maintain an internal data management web portal. I quickly learned C# ASP.NET and MS SQL Server, and significantly honed my vanilla JS skills to support this portal.  </p>
-								<p>I recently moved to Seattle with my lovely fiancee, and am looking for a development position in the Seattle area.</p>
+								<p>I recently moved to Seattle with my lovely fiancee, and begin a full stack software development engineering position at MCG mid May.</p>
 								<div class = "row">
 									<div class = "col-sm-6">
 										 <router-link to="/portfolio"> <span class = "icon fa-laptop"/>My Portfolio</router-link>
