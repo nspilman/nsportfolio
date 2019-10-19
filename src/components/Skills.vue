@@ -21,7 +21,7 @@ import htmlLogo from "../assets/img/techLogos/htmlLogo.png"
 import netlifyLogo from "../assets/img/techLogos/netlifyLogo.png"
 import pythonLogo from "../assets/img/techLogos/pythonLogo.png"
 import reduxLogo from "../assets/img/techLogos/reduxLogo.png"
-import sqlliteLogo from "../assets/img/techLogos/sqlliteLogo.png"
+import dotNetCoreLogo from "../assets/img/techLogos/dotNetCoreLogo.png"
 import sqlLogo from "../assets/img/techLogos/sqlLogo.png"
 import vueJS from "../assets/img/techLogos/vueJs.png"
 import webpackLogo from "../assets/img/techLogos/webpackLogo.png"
@@ -67,8 +67,8 @@ export default {
               image: sqlLogo,
           },
           {
-              name:"SQLLite",
-              image: sqlliteLogo,
+              name:".NET Core",
+              image: dotNetCoreLogo,
           },
 
           {
