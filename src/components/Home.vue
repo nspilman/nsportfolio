@@ -1,7 +1,7 @@
 <template>
   <article id="home" class="panel special">
     <div class="image">
-      <img src="../assets/img/headshotLarger.jpg" alt data-position="center center">
+      <img :src="mainImage" alt data-position="center center">
     </div>
     <div class="content">
       <div class="inner">
@@ -43,6 +43,17 @@
     </div>
   </article>
 </template>
+
+<script>
+import mainImage from "../assets/img/Jan52020-pro-photo.png"
+export default {
+  data(){
+    return{
+      mainImage
+    }
+  }
+}
+</script>
 
 <style scoped>
 
