@@ -14,10 +14,6 @@ export default [
         component: WorkPage
     },
     {
-        path:"/portfolio",
-        component: PortfolioPage
-    },
-    {
         path:"/contact",
         component: ContactPage
     },

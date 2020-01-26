@@ -8,7 +8,7 @@
         <header>
           <div>
           <h1>Nate Spilman</h1>
-          <h4>Web Developer</h4>
+          <h4>Software Engineer</h4>
           </div>
           <hr>
           <p>Professional Portfolio
@@ -19,9 +19,6 @@
           <ul class="actions vertical special spinY">
             <li>
               <router-link class="button" to="/work">Work & Resume</router-link>
-            </li>
-            <li>
-              <router-link to="/portfolio" class="button">Projects</router-link>
             </li>
             <li>
               <router-link to="/contact" class="button">Contact</router-link>
